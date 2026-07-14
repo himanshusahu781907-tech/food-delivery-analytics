@@ -1,7 +1,3 @@
--- ============================================
--- Food Delivery Analytics — Database Schema
--- Compatible with MySQL 8.0+ / PostgreSQL (minor tweaks noted)
--- ============================================
 
 CREATE DATABASE IF NOT EXISTS food_delivery_db;
 USE food_delivery_db;

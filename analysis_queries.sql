@@ -1,15 +1,4 @@
--- ============================================================
--- Food Delivery Analytics — Business KPI Queries
--- Database: food_delivery_db
--- Dialect: MySQL 8.0+ (CTEs & window functions)
--- ============================================================
--- NOTE: order_status values used = 'Delivered', 'Delayed', 'Cancelled'
---       "On-time" is defined as Delivered with delivery_time_minutes <= 40
--- ============================================================
-
-
--- ------------------------------------------------------------
--- 1. Total Orders
+ 1. Total Orders
 -- ------------------------------------------------------------
 SELECT COUNT(*) AS total_orders
 FROM orders;
